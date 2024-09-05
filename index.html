@@ -15,6 +15,8 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Custom theme CSS (tables)-->
+        <link href="css/table_styles.css" rel="stylesheet" />
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -113,47 +115,196 @@
                 </div>
             </div>
         </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <!-- <i class="far fa-paper-plane fa-2x mb-2 text-white"></i> -->
-                        <!-- <h2 class="text-white mb-5">Subscribe to receive updates!</h2> -->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <!-- <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN"> -->
-                            <!-- Email address input-->
-                            <!-- <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div> -->
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <!-- <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div> -->
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <!-- <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div> -->
-                        <!-- </form> -->
-                    </div>
+        <!-- Prices-->
+        <section class="prices-section" id="prices">
+            <div class="row" style="text-align: center;">
+                <h1>Tarifário</h1>
+            </div>
+            <div class="container px-4 px-lg-5 tables">
+                <!-- Tabela Voo Tirolesa Urbana -->
+                <div class="pricing-table">
+                    <h1>Voo Tirolesa Urbana</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Modalidade</th>
+                                <th>Bilheteria</th>
+                                <th>Site / Antecipado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Voo Individual</td>
+                                <td>R$ 189,00</td>
+                                <td>R$ 179,00</td>
+                            </tr>
+                            <tr>
+                                <td>Voo Duplo <span>(2 pessoas)</span></td>
+                                <td>R$ 170,00 <span>(Total: R$ 340,00)</span></td>
+                                <td>R$ 160,00 <span>(Total: R$ 320,00)</span></td>
+                            </tr>
+                            <tr>
+                                <td>Voo Triplo <span>(3 pessoas)</span></td>
+                                <td>R$ 155,00 <span>(Total: R$ 465,00)</span></td>
+                                <td>R$ 145,00 <span>(Total: R$ 435,00)</span></td>
+                            </tr>
+                            <tr>
+                                <td>Super Voo Individual</td>
+                                <td>R$ 210,00</td>
+                                <td>R$ 200,00</td>
+                            </tr>
+                            <tr>
+                                <td>Super Voo Duplo <span>(2 pessoas)</span></td>
+                                <td>R$ 190,00 <span>(Total: R$ 380,00)</span></td>
+                                <td>R$ 180,00 <span>(Total: R$ 360,00)</span></td>
+                            </tr>
+                            <tr>
+                                <td>Super Voo Triplo <span>(3 pessoas)</span></td>
+                                <td>R$ 170,00 <span>(Total: R$ 510,00)</span></td>
+                                <td>R$ 160,00 <span>(Total: R$ 480,00)</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Tirolesa Lago -->
+                <div class="pricing-table">
+                    <h1>Tirolesa Lago</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Modalidade</th>
+                                <th>Bilheteria</th>
+                                <th>Site / Antecipado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Individual</td>
+                                <td>R$ 60,00</td>
+                                <td>R$ 55,00</td>
+                            </tr>
+                            <tr>
+                                <td>Duplo <span>(2 pessoas)</span></td>
+                                <td>R$ 50,00 <span>(Total: R$ 100,00)</span></td>
+                                <td>R$ 47,50 <span>(Total: R$ 95,00)</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Arvorismo -->
+                <div class="pricing-table">
+                    <h1>Arvorismo</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bilheteria</th>
+                                <th>Site / Antecipado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>R$ 40,00</td>
+                                <td>R$ 35,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Parede de Escalada -->
+                <div class="pricing-table">
+                    <h1>Parede de Escalada</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bilheteria</th>
+                                <th>Site / Antecipado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>R$ 30,00</td>
+                                <td>R$ 25,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Rapel -->
+                <div class="pricing-table">
+                    <h1>Rapel</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bilheteria</th>
+                                <th>Site / Antecipado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>R$ 30,00</td>
+                                <td>R$ 25,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Balanço Contemplativo -->
+                <div class="pricing-table">
+                    <h1>Balanço Contemplativo</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bilheteria</th>
+                                <th>Site / Antecipado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>R$ 30,00</td>
+                                <td>R$ 25,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Pedalinho  -->
+                <div class="pricing-table">
+                    <h1>Pedalinho <span>(por equipamento)</span></h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bilheteria</th>
+                                <th>Site / Antecipado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>R$ 40,00</td>
+                                <td>R$ 35,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Tabela Bike Aquática -->
+                <div class="pricing-table">
+                    <h1>Bike Aquática <span>(por equipamento)</span></h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Bilheteria</th>
+                                <th>Site / Antecipado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>R$ 40,00</td>
+                                <td>R$ 35,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
